@@ -1,0 +1,75 @@
+
+.titre-panier {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: rgba(0, 217, 147, 1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table thead {
+    background-color: rgba(0, 217, 147, 1);
+    color: #000000;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #2A2A2A;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #1E1E1E;
+}
+
+table tfoot {
+    font-weight: bold;
+    background-color: rgba(114, 44, 51, 1);
+    color: #FFFFFF;
+}
+
+table tfoot td {
+    font-size: 1.2rem;
+}
+
+button {
+    background-color: #B91D1D;
+    color: #FFFFFF;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 0.9rem;
+}
+
+button:hover {
+    background-color: #E03A3A;
+}
+
+.btn {
+    display: inline-block;
+    background-color: rgba(0, 217, 147, 1);
+    color: #000000;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(149, 67, 76);
+    color: #FFFFFF;
+}
