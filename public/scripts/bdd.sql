@@ -1,9 +1,3 @@
-SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
-SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
-SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
-
------------------------------------------------------
--- Création de la base de données
 CREATE DATABASE IF NOT EXISTS vinyle_catalogue;
 USE vinyle_catalogue;
 
@@ -99,9 +93,3 @@ CREATE TABLE users (
     password VARCHAR(255) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
-SELECT * FROM users;
-
--- Résultats de la requête
-1	kwam	k@gmail.COM	$2y$10$p13myfcOl02m8qVKMJqc8uiVLIDtJKtkh3.JxOsC6wx2CicQncAF2
-3	kwam	kokoto@gmail.com	$2y$10$9oW7W9fVPsxLgFj4n59Xp.nRIgRtv3qx4oomBwjfG8dLTBiRJaL4W
