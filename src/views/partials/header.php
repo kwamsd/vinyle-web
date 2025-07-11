@@ -20,31 +20,27 @@
 <body>
     <header>
         <nav class="navbar">
+
             <div class="logo">
                 <a href="/">
                     <img src="/assets/image/Yeezus_album_cover.png" alt="Logo SUvinyleUB" width="150">
                 </a>
             </div>
-            <div class="nav-block-left">
-                <a href="/catalogue">
-                    <p>NOS PRODUITS</p>
-                </a>
-                <a href="#">
-                    <p>NOS BOUTIQUES</p>
-                </a>
-                <a href="#">
-                    <p>A PROPOS DE NOUS</p>
-                </a>
+
+            <ul class="nav-list">
+                <li><a href="/catalogue">Nos produits</a></li>
+                <li><a href="#">Nos boutiques</a></li>
+                <li><a href="#">À propos de nous</a></li>
+            </ul>
+
+            <div class="nav-icons">
+                <button aria-label="Panier" onclick="location.href='/panier'">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </button>
+                <button aria-label="Compte" onclick="location.href='/inscription'">
+                    <i class="fa-solid fa-user"></i>
+                </button>
             </div>
-            <div class="nav-block-right">
-                <a href="/panier"><button>
-                        <i class="fa-solid fa-basket-shopping"></i>
-                    </button></a>
-                <a href="/inscription">
-                    <button>
-                        <i class="fa-solid fa-user"></i>
-                    </button>
-                </a>
-            </div>
+
         </nav>
     </header>
