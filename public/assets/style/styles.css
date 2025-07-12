@@ -66,17 +66,17 @@ header {
 }
 
 .nav-icons button {
-  background-color: #000000;
+  background-color: transparent;
   border: none;
-  padding: 10px;
-  border-radius: 50%;
+  padding: 10px 20px;
+  border-radius: 10px;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   transition: background-color 0.3s;
   font-size: 1.1rem;       
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .nav-icons button:hover {
@@ -110,38 +110,41 @@ header {
   position: relative;  
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.7);
-  padding: 20px;
+  padding: 40px;
   border-radius: 15px;
   width: 80%;
   max-width: 600px;
   text-align: center;
   color: #FFF;
+  border: 1px solid #ffffff57;
 }
 
 
 .hero-text h1 {
     font-size: 2.5rem;
-    margin-bottom: 10px;
-    color: rgba(114, 44, 51, 1);
+    margin-bottom: 20px;
+    color: rgb(255, 0, 0);
 }
 
 .hero-text p {
     font-size: 1.2rem;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .hero-button {
     text-decoration: none;
-    background-color: rgba(114, 44, 51, 1);
-    color: #FFFFFF;
+    background-color: rgb(167, 0, 0);
+    color: #ffffff;
     padding: 10px 20px;
     border-radius: 25px;
+    margin-bottom: 20px;
     font-weight: bold;
     transition: background-color 0.3s;
 }
 
 .hero-button:hover {
-    background-color: rgb(149, 67, 76);
+    background-color: rgb(255, 0, 0);
+    color: #000000;
 }
 
 .featured-products {
